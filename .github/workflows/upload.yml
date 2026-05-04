@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download file from URL
-        run: curl -L -o myfile.zip "https://s2.dlserfes.info/dl20/series/2026/Stranger.Things.Tales.From.85/S01/720/Stranger.Things.Tales.From.85.S01E01.720p.WEB-DL.FilmKio.mkv?md5=_qpu1JQMCoYJw3rb5Tl4Ug&u=0&expires=1777920671"
+        run: curl -L -o myfile.zip "https://filesto.firezone.space/download/gAAAAABp-EV-oul2ohT01fnRCHTcT_FHEyPJCe-B2cDum6OsbCWOpgaiJoNBOO7GTsZYrgB1abDU5boggvMiFJGbLD7WIclPigsgNmCtMzMPlIwzr8-Cv0vHGmpQ7KB9zH7nHCbk0hQwBGCCZCOclfpY1A4QK--kNU718YZrKlBdaIeULAamsVvsX-V1oRQWa5cnwsGFcNvq"
       
       - name: Upload to Release
         uses: softprops/action-gh-release@v1
