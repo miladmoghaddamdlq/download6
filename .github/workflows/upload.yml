@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download file from URL
-        run: curl -L -o myfile.zip "http://dt3.tdmm2.ir/movies-dt3/serie/04/Invincible/fasl4/Invincible.S04E01.480p.WEB-DL.x264-BMB.SoftSub.BMB.B8E92CEB.mkv?expire=1777963388&hash=Nqa6ilEGDb2bWdTijUoZbA"
+        run: curl -L -o myfile.zip "https://s2.dlserfes.info/dl20/series/2026/Stranger.Things.Tales.From.85/S01/720/Stranger.Things.Tales.From.85.S01E01.720p.WEB-DL.FilmKio.mkv?md5=_qpu1JQMCoYJw3rb5Tl4Ug&u=0&expires=1777920671"
       
       - name: Upload to Release
         uses: softprops/action-gh-release@v1
